@@ -1,3 +1,18 @@
+/*
+    Program: Function Pointer Calculator
+
+    Description:
+    This program performs basic arithmetic operations using
+    function pointers. The user selects an operation, and
+    the corresponding function is called through a function pointer.
+
+    Concepts Used:
+    - Functions
+    - Function pointers
+    - switch statement
+    - Arithmetic operations
+*/
+
 #include<stdio.h>
 void add(int a,int b) {
     printf("Result : %d\n",a+b);
